@@ -1,0 +1,64 @@
+.google-img {
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .google{
+    display: block;
+    width:500px;
+    margin-bottom:100px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:10px;
+    padding-right:5px;
+    border-radius: 20px;
+    border-width:1px;
+    border-style: solid;
+    box-shadow:0 3px 4px rgba(0,0,0,0.2);
+
+}
+.first,.last{
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px;
+    border-width:1px; 
+    border-radius: 5px; 
+    margin-bottom:10px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+                   
+}
+.email{
+    display: block;
+    width: 330px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px; 
+    border-width:1px;  
+    border-radius: 5px;
+    margin-bottom:10px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);    
+}
+button{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:147px;
+    padding-right:147px;
+    background-color:  rgb(47, 127, 231);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity:0.8;
+}
+button:active{
+    opacity: 0.5;
+}

@@ -1,0 +1,71 @@
+.img{
+    object-fit: cover;
+    height: 50px;
+    width:50px;
+    border-radius:100px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.img-edit{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.text{
+    width:300px;
+   
+    border: none;
+}
+button{
+    border: none;
+    background-color: rgb(29, 155, 240);
+    color:white;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 20px;
+    
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.image{
+   
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.img-luci{
+    object-fit: cover;
+    width:100px;
+    height: 100px;
+}
+.add{
+    border: none;
+    background-color: gb(24, 119, 242);
+    color:white;
+    font-weight:lighter ;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
+}
+.name,.race{
+    margin-left: 8px;
+}

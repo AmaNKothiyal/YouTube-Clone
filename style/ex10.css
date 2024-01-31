@@ -1,0 +1,60 @@
+p{
+    font-family:Arial;
+    margin-top:0;
+    margin-bottom:0;
+}
+.block{
+    display:grid;
+    grid-template-columns:150px 150px;
+    column-gap:20px;
+   
+}
+.container{
+    width:150px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.profile-img{
+    object-fit:cover;
+    height: 150px;
+    width:100%;
+}
+.name{
+    margin-top:10px;
+    margin-left: 4px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.dp{
+    margin-left: 4px;
+    width:30px;
+    border-radius:50px;
+}
+.mutual-friends{
+   display:grid;
+   grid-template-columns:20px 1fr;
+   column-gap:15px;
+   margin-bottom:10px;
+   align-items: center;
+}
+
+.friends{
+    font-size:14px;
+    color: rgb(100, 100, 100);  
+}
+
+button{
+    background-color:rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+button:hover{
+    opacity:0.7;
+}
